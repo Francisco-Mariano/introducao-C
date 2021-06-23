@@ -8,10 +8,10 @@ int main()
   printf("\n Informe o numero que sera exibido de forma inversa\n");
   scanf(" %d", &numEntrada);
 
-  c1000 = numEntrada / 1000;
-  c100  =(numEntrada % 1000)/100;
-  c10   = ((numEntrada %1000)%100)/10;
-  c     =(((numEntrada %1000)%100)%10)/1;
+  c1000 =   numEntrada / 1000;
+  c100  =  (numEntrada % 1000) / 100;
+  c10   = ((numEntrada % 1000) % 100) / 10;
+  c     =(((numEntrada % 1000) % 100) % 10) / 1;
 
   printf("\n Confirme o quarta   posicao do numero de entrada = %d",c);
   printf("\n Confirme o terceiro posicao do numero de entrada = %d",c10);
